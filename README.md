@@ -12,7 +12,6 @@ This project is an IoT-based water level monitoring and management system design
 - **GPS Tracking**: Uses GPS modules (NEO-6M) to monitor truck locations for efficient water distribution.
 - **Cloud Integration**: Data is transmitted to InfluxDB Cloud via HTTP, where it is stored and analyzed.
 - **Grafana Dashboard**: Real-time visualization of water levels and truck locations.
-- **Mobile App Interface**: Real-time data and alerts are available through a mobile app for easy monitoring.
 - **Solar-Powered**: The system is powered by solar panels, making it energy-efficient and sustainable.
 - **Notifications**: Push notifications for low water levels or abnormal conditions to alert users.
 
@@ -34,10 +33,7 @@ The system is designed with a layered architecture to ensure modularity, scalabi
    - Data stored in **InfluxDB Cloud**.
    - Real-time analytics using **Grafana** for monitoring.
 
-4. **Mobile App**:
-   - A mobile app developed in Flutter or React Native to display real-time water tank levels, truck locations, and send alerts.
-
-5. **Power Management**:
+4. **Power Management**:
    - **Solar panel (6V/3W)** for power generation.
    - **TP4056 Battery Management Module** for charging.
    - **ICR18650-1S 3.7V Battery** for energy storage and continuous operation.
@@ -61,7 +57,6 @@ The system is designed with a layered architecture to ensure modularity, scalabi
 
 ### Prerequisites
 - Arduino IDE or PlatformIO for ESP32 programming.
-- Mobile phone with Android/iOS for the mobile app.
 - InfluxDB Cloud account for data storage.
 - Grafana setup for real-time visualization.
 - Solar panel and battery setup for power.
@@ -79,11 +74,7 @@ The system is designed with a layered architecture to ensure modularity, scalabi
    - Configure InfluxDB Cloud for data storage.
    - Set up **Grafana** and connect it to InfluxDB Cloud for visualization.
 
-3. **Mobile App Setup**:
-   - Install the mobile app on your device.
-   - The app will display real-time water level data, truck location, and send alerts if water levels are low.
-
-4. **Cloud & Grafana Integration**:
+3. **Cloud & Grafana Integration**:
    - Configure **InfluxDB Cloud** to store sensor data.
    - Set up **Grafana** to visualize water level and GPS data.
    - Enable alerts for low water levels using **Grafana notifications**.
@@ -92,6 +83,7 @@ The system is designed with a layered architecture to ensure modularity, scalabi
 
 ## Future Enhancements
 
+- **Mobile App Development**: Develop a mobile app using Flutter or React Native to display real-time water tank levels, truck locations, and send alerts.
 - **Advanced Analytics**: Use AI/ML to predict water usage patterns and optimize water distribution.
 - **Multi-Tank Support**: Extend the system to support multiple water tanks across the campus.
 - **Energy Management**: Implement energy-saving modes for more efficient power usage.
