@@ -94,4 +94,3 @@ This project ensures efficient water management using IoT, real-time monitoring,
 
 ---
 
-![System UI](WhatsApp_Image_2025-03-07_at_12.11.02.jpeg)
