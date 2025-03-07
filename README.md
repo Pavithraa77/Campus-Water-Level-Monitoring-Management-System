@@ -1,7 +1,6 @@
 # IoT-based Campus Water Level Monitoring & Management System
 
 ## Overview
-
 This project is an IoT-based water level monitoring and management system designed to efficiently monitor water tank levels across a campus. The system uses IoT devices to sense water levels, track truck locations via GPS, and transmit this data to the cloud for further processing and monitoring. It provides real-time updates and alerts to users, making it an effective solution for campus water management.
 
 ---
@@ -93,3 +92,6 @@ The system is designed with a layered architecture to ensure modularity, scalabi
 
 This project ensures efficient water management using IoT, real-time monitoring, and sustainable energy solutions, making it an essential tool for campus-wide water level tracking and optimization.
 
+---
+
+![System UI](WhatsApp_Image_2025-03-07_at_12.11.02.jpeg)
